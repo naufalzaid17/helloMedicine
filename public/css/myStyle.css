@@ -1,0 +1,373 @@
+/* START CSS UTILITY */
+
+h1, h2, h3, h4, p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    background-color: #023E8A;
+}
+
+.navbar a {
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: 1s ease-in-out;
+}
+
+#footer a {
+    opacity: 0.5;
+}
+
+#footer a:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+
+#footer {
+    background-color: #023E8A;
+    color: white;
+    position: relative;
+}
+/* END CSS UTILITY */
+
+/* START CSS HOME */
+#photoGet {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#jumbotronGetStarted {
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#button{
+    margin-bottom: 30px;
+}
+
+
+/* END CSS HOME */
+
+/* START CSS DASHBOARD */
+
+#jumbotron {
+    background-image: url('img/Jumbotron1.webp');
+    height: 406px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 97px;
+    margin-bottom: 97px;
+}
+
+#welkom {
+    font-size: 32px;
+}
+
+#tombolCard .card {
+    height: 200px;
+    width: 174px;
+    opacity: 1;
+}
+
+#tombolCard .card:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 0.6;
+}
+
+#infTerkait {
+    color: #1D3557;
+}
+
+#contInf {
+    margin-bottom: 20px;
+}
+
+#cardInf .card {
+    opacity: 1;
+}
+
+#cardInf .card:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 0.6;
+}
+
+/* END CSS DASHBOARD */
+
+/* START CSS RUMAH SAKIT */
+
+#rsTerdekat {
+    color: #1D3557;
+}
+
+#rs{
+    margin-top: 30px;
+}
+
+#rsInf {
+    margin-bottom: 20px;
+}
+
+#jumbotronRS {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 97px;
+}
+
+#rsCard .card {
+    border: none;
+}
+
+#rsCard a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+
+#rsCard a:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 0.6;
+}
+
+/* #rsCard {
+    margin-left: 100px;
+} */
+
+/* END CSS RUMAH SAKIT */
+
+/* START CSS APOTIK */
+
+#apotekTerdekat {
+    color: #1D3557;
+}
+
+#apotek{
+    margin-top: 30px;
+}
+
+#apotekInf {
+    margin-bottom: 20px;
+}
+
+#jumbotronApotek {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 97px;
+}
+
+#apotekCard .card {
+    border: none;
+}
+
+#apotekCard a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+
+#apotekCard a:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 0.6;
+}
+
+#apotekCard {
+    margin-left: 100px;
+}
+
+/* END CSS APOTIK */
+
+/* START CSS KONSULTASI */
+
+#jumbotronKonsultasi {
+    height: 644px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 97px;
+    margin-bottom: 97px;
+}
+
+#welkomKonsultasi {
+    font-size: 36px;
+}
+
+#cariDokter {
+    border-radius: 10px;
+    margin-left: -13px;
+    border: none;
+}
+
+#icKonSearch {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#konsCard .card {
+    border: none;
+}
+
+#konsCard a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+
+#konsCard a:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 0.6;
+}
+
+#rowCard {
+    margin-left: 100px;
+}
+
+/* END CSS KONSULTASI */
+
+/* START CSS EDUKASI */
+
+#cardEdu a {
+    color: black;
+    opacity: 1;
+}
+
+#cardEdu a:hover {
+    opacity: 0.6;
+    transition: 0.5s ease-in-out;
+}
+
+/* END CSS EDUKASI */
+
+/* START CSS LOGIN */
+#jumbotronLogin {
+    height: 644px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nav-home {
+    background: #f8ba10;
+    height: 80px;
+    margin: 0;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.nav-brand {
+    color: white;
+    font-weight: bold;
+    margin: 16px;
+}
+
+.nav-brand img {
+    height: 50;
+}
+
+.nav-brand img:first-child {
+    display: block;
+}
+
+.nav-brand img:nth-child(2) {
+    display: none;
+}
+
+/* END CSS LOGIN */
+
+/* START CSS Registrasi */
+#jumbotronRegistrasi {
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nav-home {
+    background: #f8ba10;
+    height: 80px;
+    margin: 0;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.nav-brand {
+    color: white;
+    font-weight: bold;
+    margin: 16px;
+}
+
+.nav-brand img {
+    height: 50;
+}
+
+.nav-brand img:first-child {
+    display: block;
+}
+
+.nav-brand img:nth-child(2) {
+    display: none;
+}
+
+/* END CSS Registrasi */
+
+/* START CSS ARTIKEL */
+#cardArtikel a{
+    color: black;
+    opacity: 1;
+}
+
+#cardArtikel a:hover{
+    opacity: 0.6;
+    transition: 0.5s ease-in-out;
+}
+
+#cardArtikel h1{
+    font-size: 26px;
+}
+
+#cardArtikel p {
+    font-size: 18px;
+}
+/* END CSS ARTIKEL */
+
+/* START CSS DETAIL ARTIKEL */
+
+#tLinkArtikel a{
+    text-decoration: none;
+    color: black;
+}
+
+/* END CSS DETAIL ARTIKEL */
+
+/* START CSS PEMBAYARAN */
+
+#btnBayar img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#btnBayar button {
+    font-size: 24px;
+}
+
+/* END CSS PEMBAYARAN */
